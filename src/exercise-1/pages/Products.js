@@ -5,6 +5,7 @@ import {Route} from 'react-router-dom';
 import Product1 from '../pages/Product1';
 import Product2 from '../pages/Product2';
 import Product3 from '../pages/Product3';
+import Product from '../pages/Product';
 class Products extends Component {
 state = {
  products : [
@@ -21,7 +22,9 @@ return ( <div>
             {this.state.products.map((product) => (
             <Link to={`/product/${product.id}`}>{product.name}</Link>
             ))}
-        
+             {this.state.products.map((product) => (
+            <Route path={`/product/:id}`} component = {Product}/>
+            ))}
         </div>
 
 );
