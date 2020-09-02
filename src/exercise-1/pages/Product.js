@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Link, Router } from 'react-router-dom';
+import {Link, Router } from 'react-router-dom';
 import {Switch} from 'react-router-dom';
 import {Route} from 'react-router-dom';
 class Product extends Component {
@@ -15,12 +15,7 @@ class Product extends Component {
 
  render(){
 return ( <div>
-         <p>{this.props.match.params.id}</p>
-         <p>name:{this.state.products1[0].name}</p>
-         <p>id:{this.state.id}</p>
-         <p>price:{this.state.price}</p>
-         <p>quantity:{this.state.quantity}</p>
-         <p>desc:{this.state.desc}</p>
+         暂无订单
         </div>
 
 );

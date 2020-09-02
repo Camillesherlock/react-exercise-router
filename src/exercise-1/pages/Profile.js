@@ -10,10 +10,7 @@ Websit:"./my-profile"
 };
  render(){
 return (<div>
-        <h1>Name:{this.state.Name}</h1>
-        <h1>Gender:{this.state.Gender}</h1>
-         <h1>Work:{this.state.Work}</h1>
-         <h1>Websit:{this.state.Websit}</h1>
+        暂无订单
         </div>
 
 );
