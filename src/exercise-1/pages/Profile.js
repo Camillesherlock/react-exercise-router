@@ -5,8 +5,8 @@ state ={
 Name:"xiao",
 Gender:"Female",
 Work:"IT industry",
-Websit:"./my-profile"
-
+Websit:"./my-profile",
+URL:"http"
 };
  render(){
 return (<div>
